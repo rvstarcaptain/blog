@@ -1,25 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-import User from './User';
-
+import Counter from './Component/Counter';
+import Props from './Component/Props';
+import React,{useState} from 'react';
+import InputValue from './Component/InputValue';
+import HideShow from './Component/Hide&Show';
+import Form from './Component/Form';
+import Condition from './Component/Condition';
+import BasicForm from './Component/BasicForm';
 function App() {
+  
   return (
     <div className="App">
-      <User/>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+      {/* <Counter/> */}
+      {/* <Props n1 ={name} /> */}
+      {/* <InputValue/> */}
+      {/* <HideShow/> */}
+      {/* <Form/> */}
+      {/* <Condition/> */}
+      <BasicForm/>
+
+      
     </div>
   );
 }
