@@ -3,7 +3,7 @@
 // export default function BasicForm() {
 //     const[userid,setUserid]=useState("");
 //     const[password,setPassword]=useState("");
-//     const[error,setError]=useState(false);
+//     const[UserError,setUserError]=useState(false);
 //     const[passerror,setPassError]=useState(false);
     
 //     function formsubmission(e){
@@ -18,9 +18,9 @@
 //     function userHandler(e){
 //       let output =  e.target.value.length;
 //       if(output <=3){
-//         setError(true);
+//         setUserError(true);
 //       }else{
-//         setError(false)
+//         setUserError(false)
 //       }
 //       setUserid(output)
      
@@ -44,7 +44,7 @@
 //         <input type='text' placeholder='enter userid' onChange={userHandler} />
 //         <br></br>
 //         {
-//           error?<span>invalid userid</span>:""
+//           UserError?<span>invalid userid</span>:""
 //         }
 //         <br></br>
 //         <input type='text' placeholder='enter Password' onChange={passwordHandler}/>

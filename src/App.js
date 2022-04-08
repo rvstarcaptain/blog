@@ -8,7 +8,16 @@ import HideShow from './Component/Hide&Show';
 import Form from './Component/Form';
 import Condition from './Component/Condition';
 import BasicForm from './Component/BasicForm';
+import PassingFunction from './Component/PassingFunction';
+import Lyfcycle from './Component/Lyfcycle';
+import Compdidmount from './Component/Compdidmount';
+import CompDidUpdate from './Component/CompDidUpdate';
+import CompWillUnmount from './Component/CompWillUnmount';
 function App() {
+  // const[name,setName]=useState("rahul")
+  // function getFunction(){
+  //   alert("hello from app")
+  // }
   
   return (
     <div className="App">
@@ -19,6 +28,13 @@ function App() {
       {/* <Form/> */}
       {/* <Condition/> */}
       {/* <BasicForm/> */}
+      {/* <PassingFunction data={getFunction}/> */}
+      {/* <Lyfcycle  /> */}
+      {/* <button onClick={()=>setName("rohit")}>UpdateName</button> */}
+      {/* <Compdidmount/> */}
+      {/* <CompDidUpdate/> */}
+      <CompWillUnmount/>
+
 
       
     </div>
