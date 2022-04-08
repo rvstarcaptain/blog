@@ -13,6 +13,7 @@ import Lyfcycle from './Component/Lyfcycle';
 import Compdidmount from './Component/Compdidmount';
 import CompDidUpdate from './Component/CompDidUpdate';
 import CompWillUnmount from './Component/CompWillUnmount';
+import UseEffect from './Component/UseEffect';
 function App() {
   // const[name,setName]=useState("rahul")
   // function getFunction(){
@@ -33,7 +34,9 @@ function App() {
       {/* <button onClick={()=>setName("rohit")}>UpdateName</button> */}
       {/* <Compdidmount/> */}
       {/* <CompDidUpdate/> */}
-      <CompWillUnmount/>
+      {/* <CompWillUnmount/> */}
+      <UseEffect/>
+
 
 
       
