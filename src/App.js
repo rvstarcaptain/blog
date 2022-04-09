@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Counter from './Component/Counter';
 import Props from './Component/Props';
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import InputValue from './Component/InputValue';
 import HideShow from './Component/Hide&Show';
 import Form from './Component/Form';
@@ -13,12 +13,17 @@ import Lyfcycle from './Component/Lyfcycle';
 import Compdidmount from './Component/Compdidmount';
 import CompDidUpdate from './Component/CompDidUpdate';
 import CompWillUnmount from './Component/CompWillUnmount';
-import UseEffect from './Component/UseEffect';
+import UseEffect1 from './Component/UseEffect1';
+import UseEffect2 from './Component/UseEffect2';
+import Style from './Component/Style';
+
 function App() {
   // const[name,setName]=useState("rahul")
   // function getFunction(){
   //   alert("hello from app")
   // }
+  
+ 
   
   return (
     <div className="App">
@@ -35,8 +40,11 @@ function App() {
       {/* <Compdidmount/> */}
       {/* <CompDidUpdate/> */}
       {/* <CompWillUnmount/> */}
-      <UseEffect/>
-
+      {/* <UseEffect1/> */}
+      {/* <UseEffect2 /> */}
+      {/* <Style/> */}
+      
+     
 
 
       
