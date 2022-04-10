@@ -16,9 +16,10 @@ import CompWillUnmount from './Component/CompWillUnmount';
 import UseEffect1 from './Component/UseEffect1';
 import UseEffect2 from './Component/UseEffect2';
 import Style from './Component/Style';
-
+import Bootstrap from './Component/Bootstrap';
+import Arraymap from './Component/Arraymap';
 function App() {
-  // const[name,setName]=useState("rahul")
+   
   // function getFunction(){
   //   alert("hello from app")
   // }
@@ -43,6 +44,9 @@ function App() {
       {/* <UseEffect1/> */}
       {/* <UseEffect2 /> */}
       {/* <Style/> */}
+      {/* <Bootstrap/> */}
+      {/* <Arraymap/> */}
+      
       
      
 
