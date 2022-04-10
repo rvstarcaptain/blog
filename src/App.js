@@ -18,6 +18,12 @@ import UseEffect2 from './Component/UseEffect2';
 import Style from './Component/Style';
 import Bootstrap from './Component/Bootstrap';
 import Arraymap from './Component/Arraymap';
+import NestedList from './Component/NestedList';
+import ReuseComp from './Component/ReuseComp';
+import ParentComponent from './Component/ParentComponent';
+import PureComp from './Component/PureComp';
+import Usememo from './Usememo';
+import Useref from './Component/Useref';
 function App() {
    
   // function getFunction(){
@@ -46,10 +52,12 @@ function App() {
       {/* <Style/> */}
       {/* <Bootstrap/> */}
       {/* <Arraymap/> */}
-      
-      
-     
-
+      {/* <NestedList/> */}
+      {/* <ReuseComp/> */}
+      {/* <ParentComponent/> */}
+      {/* <PureComp/> */}
+      {/* <Usememo/> */}
+      {/* <Useref/> */}
 
       
     </div>
