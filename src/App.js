@@ -26,6 +26,11 @@ import Usememo from './Usememo';
 import Useref from './Component/Useref';
 import Controlled from './Component/Controlled';
 import Uncontrolled from './Component/Uncontrolled';
+import HighOrderFunciton from './Component/HighOrderFunciton';
+import { HOC } from './Component/HighOrderFunciton';
+
+import Home from './Component/Home';
+import About from './Component/About';
 function App() {
   
 
@@ -36,8 +41,8 @@ function App() {
 
   
   return (
-    <div className="App">
-     
+    <div className='App'>
+      
         {/* <Counter/> */}
         {/* <Props n1 ={name} /> */}
         {/* <InputValue/> */}
@@ -63,8 +68,9 @@ function App() {
         {/* <Usememo/> */}
         {/* <Useref/> */}
         {/* <Controlled/> */}
-        <Uncontrolled />
-
+        {/* <Uncontrolled /> */}        
+        {/* <HOC hoc={HighOrderFunciton}/> */}
+        
 
     </div>
   );
